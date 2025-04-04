@@ -1,0 +1,179 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+}
+
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+
+  text-decoration: none;
+}
+
+/*.logo-web {
+   font-weight: 700; 
+  font-size: 18px;
+
+  line-height: 21px;
+  
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5; */
+
+.logo-studio {
+  /* font-weight: 700; 
+  font-size: 18px;
+
+  line-height: 21px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+   text-transform: uppercase; */
+  color: #2e2f42;
+}
+a {
+  text-decoration: none; /* Видаляє підкреслення */
+}
+.navigation {
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation-link {
+  text-decoration: none; /* Прибирає підкреслення */
+
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.navigation-link:hover {
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 24px;
+
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+.navigation-link:focus {
+  color: #404bbf;
+}
+.info-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.info-item:hover {
+  color: #404bbf;
+}
+.info-item:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.header-one {
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.header-two {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-tree {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+.button:hover {
+  background: #404bbf;
+}
+.button:focus {
+  background-color: #404bbf;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.list-item {
+  background-color: #ffffff;
+}
+.section-one {
+  background-color: #2e2f42;
+}
+.section-tree {
+  background-color: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-paragraf {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+.logo-studio-footer {
+  color: #f4f4fd;
+}
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+.logo-web {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 76px;
+  margin-left: 156px;
+}
+.header-top-line {
+  padding: 24px 56px;
+}
