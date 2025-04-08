@@ -1,9 +1,57 @@
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* Page header */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.hader-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
 .logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -15,35 +63,18 @@ body {
 
   text-decoration: none;
 }
-
-/*.logo-web {
-   font-weight: 700; 
-  font-size: 18px;
-
-  line-height: 21px;
-  
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5; */
-
 .logo-studio {
-  /* font-weight: 700; 
-  font-size: 18px;
-
-  line-height: 21px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-   text-transform: uppercase; */
   color: #2e2f42;
 }
 a {
   text-decoration: none; /* Видаляє підкреслення */
 }
-.navigation {
+.nav-list {
   font-family: "Roboto", sans-serif;
 }
-
 .navigation-link {
+  display: block;
+  padding: 24px 0;
   text-decoration: none; /* Прибирає підкреслення */
 
   font-weight: 500;
@@ -67,6 +98,8 @@ a {
   color: #404bbf;
 }
 .info-item {
+  display: block;
+  padding: 24px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -81,6 +114,7 @@ a {
 }
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 .header-one {
   font-weight: 700;
@@ -101,7 +135,6 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
 .header-tree {
   font-weight: 500;
   font-size: 20px;
@@ -155,25 +188,4 @@ a {
 }
 .logo-studio-footer {
   color: #f4f4fd;
-}
-.navigation {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-}
-.logo-web {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 76px;
-  margin-left: 156px;
-}
-.header-top-line {
-  padding: 24px 56px;
 }

@@ -7,7 +7,7 @@
 
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,40 +27,41 @@
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <nav>
-        <!-- logo -->
-        <a class="logo-web" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a
-        >
-        <!-- Navigation -->
-        <ul class="navigation">
-          <li class="navigation-item">
-            <a class="navigation-link" href="./index.html">studio</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="">portfolio</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="">contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- navigation-info -->
-      <address class="address">
-        <ul>
-          <li>
-            <a class="info-item" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="info-item" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <!-- Navigation -->
+          <a class="logo-web hader-logo" href="./index.html"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="navigation-link" href="./index.html">studio</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="">portfolio</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="">contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- navigation-info -->
+        <address class="address">
+          <ul class="contacts-list">
+            <li>
+              <a class="info-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="info-item" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- SECTION ONE -->
@@ -69,6 +70,7 @@
         <h1 class="header-one">Effective Solutions for Your Business</h1>
         <button class="button" type="button">Order Service</button>
       </section>
+
       <!-- SECTION TWO -->
       <section>
         <h2 class="header-tree">Advantages</h2>
