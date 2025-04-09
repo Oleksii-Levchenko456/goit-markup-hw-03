@@ -267,13 +267,20 @@ a {
   padding: 120px 0;
 }
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 .footer-paragraf {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  width: 264px;
+  height: 112px;
 }
 .logo-studio-footer {
   color: #f4f4fd;
+}
+.logo-web-footer {
+  display: inline-block;
+  padding-bottom: 16px;
 }
