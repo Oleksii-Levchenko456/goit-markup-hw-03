@@ -96,10 +96,17 @@ p {
   display: flex;
   width: 1148px;
   height: 104px;
-  margin: 156px 0;
   gap: 24px;
 }
-
+.list-item-section-two {
+  width: calc((100% - 72px) / 4);
+}
+.text-section-two {
+  padding-top: 8px;
+}
+.section-two-paddings {
+  padding: 120px 0;
+}
 .hader-logo {
   padding: 24px 0;
   margin-right: 76px;
